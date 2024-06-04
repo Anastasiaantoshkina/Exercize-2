@@ -2,8 +2,8 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int sum = 100;
-        int replenishment = 300;
+        int sum = 10000;
+        int replenishment = 100;
         int cash = sum + replenishment;
 
         int bonus = cash / 100;
@@ -12,7 +12,8 @@ public class Main {
 
             System.out.println(bonus);
 
-    } else {
+        } else {
             System.out.println(cash);
         }
-}}
+    }
+}
